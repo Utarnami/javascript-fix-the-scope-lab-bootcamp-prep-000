@@ -18,15 +18,21 @@ function yourAnimal() {
 function add2(n) {
    const two = 2
   return n + two
+<<<<<<< HEAD
 // Feel free to move things around!\
   }
+=======
+  // Feel free to move things around!\
+}
+>>>>>>> 5613bc836f4ba86c8f2bf0f4b3c9cda083662e73
 
 var funkyFunction = function() {
   return function() {
     return "FUNKY!"
   }
 }
-
+var theFunk = funkyFunction()
+theFunk()
 // We want to set theFunk equal to "FUNKY!" using our funkyFunction.
 // NOTE: you only need to modify the code below this line.
 var theFunk = "FUNKY!"
